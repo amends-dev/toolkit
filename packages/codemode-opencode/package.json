@@ -1,0 +1,47 @@
+{
+  "name": "@amends-dev/codemode-opencode",
+  "version": "0.2.0",
+  "description": "opencode's code mode as the runtime of @amends-dev/toolkit's code mode: the code a model writes runs on an interpreter that reaches nothing but the tools it is given.",
+  "keywords": [
+    "agent",
+    "code mode",
+    "effect",
+    "opencode",
+    "tools"
+  ],
+  "homepage": "https://github.com/amends-dev/toolkit/tree/main/packages/codemode-opencode#readme",
+  "bugs": {
+    "url": "https://github.com/amends-dev/toolkit/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amends-dev/toolkit.git",
+    "directory": "packages/codemode-opencode"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.ts",
+    "./*": "./src/*.ts"
+  },
+  "publishConfig": {
+    "access": "public",
+    "directory": "dist"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "dependencies": {
+    "@amends-dev/toolkit": "workspace:^",
+    "@opencode/codemode": "catalog:"
+  },
+  "devDependencies": {
+    "@effect/vitest": "catalog:",
+    "effect": "catalog:"
+  },
+  "peerDependencies": {
+    "effect": "catalog:"
+  }
+}
