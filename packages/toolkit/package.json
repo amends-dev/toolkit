@@ -1,6 +1,6 @@
 {
   "name": "@amends-dev/toolkit",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Tools from MCP servers and HTTP APIs in one shape, assembled into the toolkit an agent calls, with search and code mode to present many tools as few, and the conformance suites each source runs.",
   "keywords": [
     "agent",
