@@ -1,5 +1,11 @@
 # @amends-dev/toolkit
 
+## 0.2.2
+
+### Patch Changes
+
+- [#1](https://github.com/amends-dev/toolkit/pull/1) [`d001baa`](https://github.com/amends-dev/toolkit/commit/d001baae8267a38f49aff34ef963c021645af35a) Thanks [@saribmah](https://github.com/saribmah)! - Moved to its own repository, [amends-dev/toolkit](https://github.com/amends-dev/toolkit), which its links on npm and its provenance now name.
+
 ## 0.2.1
 
 ### Patch Changes

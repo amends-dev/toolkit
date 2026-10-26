@@ -1,6 +1,6 @@
 {
   "name": "@amends-dev/codemode-opencode",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "opencode's code mode as the runtime of @amends-dev/toolkit's code mode: the code a model writes runs on an interpreter that reaches nothing but the tools it is given.",
   "keywords": [
     "agent",
